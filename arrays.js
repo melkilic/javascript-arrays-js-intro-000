@@ -19,3 +19,6 @@ chocolateBars.push("foo");
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
   chocolateBars.shift()
 }
+function removeElementFromBeginningOfArray(chocolateBars){
+  chocolateBars=chocolateBars.slice(1)
+}
