@@ -12,7 +12,10 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars,foo){
 function destructivelyAddElementToEndOfArray(chocolateBars,foo){
 chocolateBars.push("foo");
 }
-function accessElementInArray(chocolateBars,2){
-  var chocolateBars= ["snickers", "hundred grand", "kitkat", "skittles"] ;
- return chocolateBars[2];
+// function accessElementInArray(chocolateBars,2){
+//   var chocolateBars= ["snickers", "hundred grand", "kitkat", "skittles"] ;
+//  return chocolateBars[2];
+// }
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
+  chocolateBars.shift()
 }
