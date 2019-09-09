@@ -11,6 +11,7 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars,foo){
  }
 function destructivelyAddElementToEndOfArray(chocolateBars,foo){
 chocolateBars.push("foo");
+return chocolateBars;
 }
 // function accessElementInArray(chocolateBars,2){
 //   var chocolateBars= ["snickers", "hundred grand", "kitkat", "skittles"] ;
@@ -21,11 +22,11 @@ function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
   return chocolateBars;
 }
 function removeElementFromBeginningOfArray(chocolateBars){
-  return chocolateBars.slice(1)
+  return chocolateBars.slice(1);
 }
 function destructivelyRemoveElementFromEndOfArray (chocolateBars){
-  chocolateBars.pop()
+  return chocolateBars.pop();
 }
 function removeElementFromEndOfArray (chocolateBars){
-  chocolateBars.slice(0, chocolateBars.length - 1)
+return chocolateBars.slice(0, chocolateBars.length - 1);
 }
