@@ -18,9 +18,10 @@ chocolateBars.push("foo");
 // }
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
   chocolateBars.shift()
+  return chocolateBars;
 }
 function removeElementFromBeginningOfArray(chocolateBars){
-  chocolateBars=chocolateBars.slice(1)
+  return chocolateBars.slice(1)
 }
 function destructivelyRemoveElementFromEndOfArray (chocolateBars){
   chocolateBars.pop()
